@@ -6,6 +6,8 @@ This repository provides a comprehensive comparative analysis of artificial inte
 
 ## Key Findings
 
+![AI Patent Competition Analysis](analysis/visualizations/ai_patent_trends_analysis.png)
+
 ### AI Patent Leadership (2015-2025)
 - **China**: 61-70% of global AI patents, 188,757 patent filings in 2024
 - **United States**: Quality leadership with 7x more citations per patent
@@ -92,19 +94,26 @@ ai-military-us-china-analysis/
 
 ### Running Analysis Scripts
 
+Generate professional visualizations from the data:
+
 ```bash
 # Install required packages
 pip install pandas matplotlib seaborn numpy requests
 
-# Generate AI patent trends analysis
+# Generate AI patent trends analysis with charts
 python3 analysis/ai_patent_trends.py
 
-# Run military funding comparison
+# Run military funding comparison analysis  
 python3 analysis/military_funding_analysis.py
-
-# Generate comprehensive military AI analysis
-python3 analysis/military_ai_comparison.py
 ```
+
+### Generated Visualizations
+
+The analysis scripts create professional charts showing:
+- **AI Patent Competition**: Volume vs quality comparison between US and China
+- **Military Investment Trends**: Government and private funding patterns
+- **Technology Leadership**: Patent breakdowns by AI category (ML, computer vision, autonomous systems)
+- **Strategic Program Analysis**: DoD Replicator vs PLA intelligentized warfare capabilities
 
 ### Data Sources
 
